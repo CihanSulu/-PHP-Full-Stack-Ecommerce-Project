@@ -1,0 +1,151 @@
+/*Ödeme Start */
+$("#odeme1").click(function(){
+	$("#odeme").val("kredi");
+	$("#odeme1").addClass("activesecenek");
+	$("#odeme2").removeClass("activesecenek");
+	$("#odeme3").removeClass("activesecenek");
+});
+$("#odeme2").click(function(){
+	$("#odeme").val("nakit");
+	$("#odeme2").addClass("activesecenek");
+	$("#odeme1").removeClass("activesecenek");
+	$("#odeme3").removeClass("activesecenek");
+});
+$("#odeme3").click(function(){
+	$("#odeme").val("sube");
+	$("#odeme3").addClass("activesecenek");
+	$("#odeme2").removeClass("activesecenek");
+	$("#odeme1").removeClass("activesecenek");
+});
+
+/*Kargo Start */
+
+$("#kargo1").click(function(){
+	$("#kargo").val("ptt");
+	$("#kargo1").addClass("activesecenek");
+	$("#kargo2").removeClass("activesecenek");
+	$("#kargo3").removeClass("activesecenek");
+});
+$("#kargo2").click(function(){
+	$("#kargo").val("aras");
+	$("#kargo2").addClass("activesecenek");
+	$("#kargo1").removeClass("activesecenek");
+	$("#kargo3").removeClass("activesecenek");
+});
+$("#kargo3").click(function(){
+	$("#kargo").val("mng");
+	$("#kargo3").addClass("activesecenek");
+	$("#kargo2").removeClass("activesecenek");
+	$("#kargo1").removeClass("activesecenek");
+});
+
+/*Kayıt Start */
+
+$("#kayit1").click(function(){
+	$("#kayit").val("yeni");
+	$("#kayit1").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit2").click(function(){
+	$("#kayit").val("sonra");
+	$("#kayit2").addClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit3").click(function(){
+	$("#kayit").val("cevapsiz");
+	$("#kayit3").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit4").click(function(){
+	$("#kayit").val("iptal");
+	$("#kayit4").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit5").click(function(){
+	$("#kayit").val("onay");
+	$("#kayit5").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit6").click(function(){
+	$("#kayit").val("arsiv");
+	$("#kayit6").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit7").click(function(){
+	$("#kayit").val("iade");
+	$("#kayit7").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit8").click(function(){
+	$("#kayit").val("odeme");
+	$("#kayit8").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit9").removeClass("activesecenek");
+});
+$("#kayit9").click(function(){
+	$("#kayit").val("bedelsiz");
+	$("#kayit9").addClass("activesecenek");
+	$("#kayit2").removeClass("activesecenek");
+	$("#kayit3").removeClass("activesecenek");
+	$("#kayit4").removeClass("activesecenek");
+	$("#kayit5").removeClass("activesecenek");
+	$("#kayit1").removeClass("activesecenek");
+	$("#kayit6").removeClass("activesecenek");
+	$("#kayit7").removeClass("activesecenek");
+	$("#kayit8").removeClass("activesecenek");
+});
